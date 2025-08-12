@@ -1,4 +1,4 @@
-# Ammar-s-Portfolio
+# Ammar-Portfolio
 
 Welcome to my portfolio! Here, you'll find a curated selection of my work that showcases my skills, creativity, and passion for Software Engineering. 
 
