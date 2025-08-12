@@ -1,5 +1,5 @@
 # Ammar-s-Portfolio
-My Portfolio
+
 Welcome to my portfolio! Here, you'll find a curated selection of my work that showcases my skills, creativity, and passion for Software Engineering. 
 
 Each project reflects my dedication to excellence and my desire to push boundaries. I believe in the power of storytelling and creativity to communicate ideas and evoke emotions. 
