@@ -17,9 +17,22 @@ Welcome to **CRUD Image**, a simple yet powerful PHP & MySQL CRUD application fo
 
 ## 📸 Screenshots
 
+Take a look at some of the key screens from the CRUD Image project:
+
+### 🗂️ User List
+See all users at a glance, complete with profile images and action buttons.
 ![User List](screenshots/user-list.png)
+
+### ➕ Add User
+Easily add a new user along with their profile picture.
 ![Add User](screenshots/add-user.png)
+
+### ✏️ Edit User
+Update user details or change their profile image with a simple form.
 ![Edit User](screenshots/edit-user.png)
+
+### 👁️ View User Details
+View complete information about a user in a clean, focused layout.
 ![Read User](screenshots/read-user.png)
 
 ---
