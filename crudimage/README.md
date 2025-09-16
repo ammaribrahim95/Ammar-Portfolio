@@ -17,8 +17,6 @@ Welcome to **CRUD Image**, a simple yet powerful PHP & MySQL CRUD application fo
 
 ## 📸 Screenshots
 
-> _Add your screenshots below to showcase the UI and features!_
-
 ![User List](screenshots/user-list.png)
 ![Add User](screenshots/add-user.png)
 ![Edit User](screenshots/edit-user.png)
