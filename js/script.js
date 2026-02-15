@@ -48,3 +48,39 @@ smoothLinks.forEach((link) => {
     }
   });
 });
+
+// Dynamic Experience Years Calculation
+const experienceElement = document.getElementById("experience-years");
+if (experienceElement) {
+  const currentYear = new Date().getFullYear();
+  const startYear = 2023;
+  const yearsExperience = currentYear - startYear;
+  experienceElement.textContent = `${yearsExperience}+`;
+}
+
+// Dynamic Project Counting
+const projectCountElement = document.getElementById("project-count");
+const projectCards = document.querySelectorAll(".project-card");
+if (projectCountElement) {
+  projectCountElement.textContent = `${projectCards.length}+`;
+}
+
+// WhatsApp Form Redirection
+const contactForm = document.getElementById("contact-form");
+if (contactForm) {
+  contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const name = contactForm.querySelector('input[name="name"]').value;
+    const company = contactForm.querySelector('input[name="company"]').value;
+    const email = contactForm.querySelector('input[name="email"]').value;
+    const message = contactForm.querySelector('textarea[name="message"]').value;
+
+    const formattedMessage = `Hi Ammar! My name is ${name}, I am from ${company}, I would like to share you about: ${message}. You can contact me at ${email}`;
+
+    const whatsappUrl = `https://wa.me/60128471208?text=${encodeURIComponent(formattedMessage)}`;
+
+    window.open(whatsappUrl, "_blank");
+    contactForm.reset();
+  });
+}
